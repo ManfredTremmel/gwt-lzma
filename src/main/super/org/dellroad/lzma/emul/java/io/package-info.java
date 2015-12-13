@@ -5,4 +5,4 @@
  * $Id$
  */
 
-package org.dellroad.lzma.client.emul.java.io;
+package java.io;
