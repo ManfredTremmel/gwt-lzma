@@ -9,3 +9,5 @@ View the Javadoc API [here](http://archiecobbs.github.io/gwt-lzma/publish/javado
 Note: The code works, but LZMA was not designed to run in a web browser as Javascript. Processing at higher compression levels (which use lots of memory) and/or with huge files may cause your browser to explode.
 
 **Also:** A [standalone, non-GWT version](http://nmrugg.github.com/LZMA-JS/) of this code has been created as well.
+
+Version 1.2-1 requires GWT >= 2.8.0.

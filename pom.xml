@@ -16,12 +16,12 @@
 	<groupId>de.knightsoft-net</groupId>
 	<artifactId>gwt-lzma</artifactId>
 	<packaging>jar</packaging>
-	<version>1.2</version>
+	<version>1.2-1</version>
 	<name>gwt-lzma</name>
 	<description>
-     The GWT Bean Validators is a collection of JSR-303 bean validators. It can be used on server
-     and with the help of GWT even on client side. It also contains a lot of improvements in the
-     validation handling in GWT, in displaying validation errors and in input handling.
+	 gwt-lzma is a GWT module that implements the Lempel-Ziv-Markov chain (LZMA) compression
+	 algorithm. This is a generic compression library, i.e., compression in Javascript,
+	 not just compression of Javascript (i.e., "minification").
     </description>
 	<url>https://github.com/ManfredTremmel/gwt-lzma</url>
 
@@ -94,7 +94,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<gwt.version>2.8.0</gwt.version>
 		<junit.version>4.12</junit.version>
-		<maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
+		<maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
 		<maven-source-plugin.version>3.0.1</maven-source-plugin.version>
 		<maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
 		<maven-project-info-reports-plugin.version>2.9</maven-project-info-reports-plugin.version>
@@ -142,9 +142,6 @@
 				<configuration>
 					<source>${maven.compiler.source}</source>
 					<target>${maven.compiler.target}</target>
-					<excludes>
-						<value>**/emul/**/*.java</value>
-					</excludes>
 				</configuration>
 			</plugin>
 			<!-- GWT Maven Plugin -->

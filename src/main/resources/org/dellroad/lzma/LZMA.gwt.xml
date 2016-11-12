@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
- "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.8.0//EN"
+ "http://gwtproject.org/doctype/2.8.0/gwt-module.dtd">
 
 <!-- $Id$ -->
 <module>
@@ -8,5 +8,4 @@
     <entry-point class="org.dellroad.lzma.client.GwtLzma" />
 
     <source path="client" />
-    <super-source path="emul" />
 </module>
