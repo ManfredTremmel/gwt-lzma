@@ -2,7 +2,6 @@ package org.dellroad.lzma.client.SevenZip.Compression.LZMA;
 
 import org.dellroad.lzma.client.SevenZip.Compression.RangeCoder.BitTreeEncoder;
 import org.dellroad.lzma.client.SevenZip.Compression.LZMA.Base;
-import org.dellroad.lzma.client.SevenZip.Compression.LZ.BinTree;
 import org.dellroad.lzma.client.SevenZip.ICodeProgress;
 import java.io.IOException;
 

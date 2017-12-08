@@ -10,4 +10,4 @@ Note: The code works, but LZMA was not designed to run in a web browser as Javas
 
 **Also:** A [standalone, non-GWT version](http://nmrugg.github.com/LZMA-JS/) of this code has been created as well.
 
-Version 1.2-1 requires GWT >= 2.8.0.
+Version 1.2-2 requires GWT >= 2.8.0.
