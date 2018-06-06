@@ -1,3 +1,5 @@
+# This project is read only and was moved to gitlab: [https://gitlab.com/ManfredTremmel/gwt-lzma](https://gitlab.com/ManfredTremmel/gwt-lzma)
+
 **gwt-lzma** is a [GWT](http://code.google.com/webtoolkit/) module that implements the [Lempel-Ziv-Markov chain (LZMA)](http://en.wikipedia.org/wiki/Lzma) compression algorithm. This is a generic compression library, i.e., compression **in** Javascript, not just compression **of** Javascript (i.e., "minification").
 
 The code is adapted from the Java LZMA implementation found in the [LZMA SDK](http://www.7-zip.org/sdk.html). The compressor and decompressor implement GWT's [Scheduler.RepeatingCommand](http://google-web-toolkit.googlecode.com/svn/javadoc/2.4/com/google/gwt/core/client/Scheduler.RepeatingCommand.html) interface so that other browser activity may continue while processing occurs.
